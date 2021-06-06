@@ -1,0 +1,60 @@
+.contactUsMain {
+    min-height : 100vh;
+    width : 100%;
+    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(/src/images/img-7.jpg);
+    background-position : center;
+    background-size : cover;
+    position : relative;
+}
+
+/* .contactUsMain, .col {
+    margin-bottom: 1rem;
+} */
+
+/* .contact_text1 */
+.contact_text2
+/* .contact_text3*/ {
+    text-align : center;
+    padding: 100px 300px;
+}
+
+.contact_text3 {
+    padding: 100px;
+}
+
+.col {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+  padding: 3rem 0;
+  text-align: center;
+  display: block;
+}
+
+.title {
+  font-size: 54px;
+  line-height: 1em;
+  font-weight: 700;
+  font-family: "Nunito Sans",sans-serif;
+  color : white;
+}
+
+.subtitle,
+.subtitle2,
+.subtitle3 {
+    color : white;
+    font-weight : bold;
+    font-size: 30px;
+}
+
+.desc,
+.desc2,
+.desc3 {
+    color : white;
+    font-weight : bold;
+    font-size: 20px;    
+}

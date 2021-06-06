@@ -1,0 +1,41 @@
+.payment {
+    background-image: linear-gradient(rgba(10, 10, 30, 1), rgba(10, 10, 30, 0)),url(../images/img-6.jpg);
+    font-weight: bold;
+}
+
+.order-title {
+    color : white;
+}
+
+.payment input {
+    background : transparent;
+    border : 1px solid white;
+    color : white;
+}
+
+.payment input:hover {
+    color : black;
+    background-color: white;
+    transition : 1s;
+}
+
+.payment input[type="number"] {
+    font-weight: bold;
+}
+
+#checkout-btn:hover {
+    background-color: black;
+    color : white;
+    transition: 1s;
+    border : 1px solid black;
+    text-transform: uppercase;
+}
+
+#checkout-btn {
+    text-transform: uppercase;
+}
+
+.orderlist_check {
+    color : white;
+    font-size: 20px;
+}

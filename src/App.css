@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.reports,
+.products,
+.team,
+.reports,
+.services,
+.Help,
+.contact-us,
+.marketing,
+.consulting,
+.side1,
+.side2,
+.side3 {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}

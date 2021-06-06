@@ -1,0 +1,35 @@
+
+.code_head {
+    min-height : 100vh;
+    width : 100%;
+    background-image : linear-gradient(rgba(10, 10, 30, 0.2), rgba(10, 10, 30, 0.2)), url('../../images/img-3.jpg');
+    background-position : center;
+    background-size : cover;
+    position : relative;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}   
+
+.code_text-box {
+    width : 100%;
+    color : #fff;
+    text-align : center;
+    font-size: 110px;
+    font-weight: bold;
+
+}
+.code_link {
+    font-size: 110px;
+    color: burlywood;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.code_contents,
+.code_contents2 {
+    text-align: center;
+    color :blanchedalmond;
+    font-size: 40px;
+}

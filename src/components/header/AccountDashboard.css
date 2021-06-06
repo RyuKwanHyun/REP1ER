@@ -1,0 +1,28 @@
+
+.acccountdashboard {
+    display : block;
+    color: white;
+    background: url(./images/AccountDashboard.jpg) no-repeat 50%;
+    background-size:  cover;
+    height: 1080px;
+    padding: 20px;
+    text-align: center;
+  }
+
+.dashboard_recentoders {
+  display: block;
+  margin: 20px;
+  border: 10px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+
+.dashboardbtn {
+    border : 1px solid black;
+    color : white;  
+    background-color : skyblue;
+    padding : 10px;
+    width: 100;
+    margin : 0px;
+}

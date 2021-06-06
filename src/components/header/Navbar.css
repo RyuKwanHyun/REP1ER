@@ -1,0 +1,197 @@
+.navbar {
+  background:bisque;
+  height: 80px;
+  display: flex;
+  font-size: 15px;
+  font-weight : bold;
+}
+
+.sidebar_icon{  
+  display: inline-block;
+  justify-content: left;
+  text-align: left;
+}
+
+.navbar-logo {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 3rem;
+  font-family:inherit;
+}
+
+.navbar-logo:hover {
+  color : skyblue;
+  transition: 0.5s;
+}
+
+.fa-firstdraft {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-links {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 15pt;
+}
+
+.nav-links:hover {
+  background-color: #fafbfc;
+  border-radius: 40px;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+
+.nav-links-mobile2 {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.nav-log {
+  text-align: end;
+}
+
+@media screen and (max-width: 560px) {
+  .navbar {
+    text-align: right;
+  }
+
+  .nav-item {
+    display: none;
+  }
+  
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    
+  }
+
+  .nav-menu.active {
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 0;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: #fbfcfd;
+  border-radius: 40px;
+  transition: all 0.2s ease-out;
+  }
+
+  .nav-log{
+    text-align: right;
+    justify-content: right;
+    display: flex;
+    left: 30px;
+    font-weight: bold;
+  }
+
+  .navbar-logo {
+    color: black;
+    justify-self: start;
+    margin-left: 0px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3rem;
+    
+  }
+
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #1888ff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #1888ff;
+    transition: 250ms;
+  }
+/* 
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #1888ff;
+  font-size: 15pt;
+  font-weight: bold;
+  display: none;
+  text-align: right;
+}
+
+.btn:hover {
+  padding: 6px 18px;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 4px;
+  border: 0.5px solid #1888ff;
+  transition: all 0.5s ease-out;
+} */
+
+}

@@ -1,0 +1,173 @@
+
+.sell_head {
+    min-height : 100vh;
+    width : 100%;
+    background-image : linear-gradient(rgba(10, 10, 30, 0.2), rgba(10, 10, 30, 0.2)), url('../../images/img-4.jpg');
+    background-position : center;
+    background-size : cover;
+    position : relative;
+}   
+
+/* Sell Football Shirts(셔츠 판매) */
+.sell_text-box {     
+    width : 100%;
+    color : #fff;
+    position : absolute;
+    top : 5%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    text-align : center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Pagement */
+.sell_text-box2 {     
+    width : 100%;
+    color : #fff;
+    position : absolute;
+    top : 10%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    text-align : center;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+/* Pagement(Korea) */
+.sell_text-box3 {     
+    width : 100%;
+    color : #fff;
+    position : absolute;
+    top : 13%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    text-align : center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Name */
+.sell_text-box4 {     
+    width : 100%;
+    color : #fff;
+    position : absolute;
+    top : 30%;
+    left : 20%;
+    transform : translate(-50%, -50%);
+    text-align : center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* PhoneNumber */
+.sell_text-box5 {     
+    width : 100%;
+    color : #fff;
+    position : absolute;
+    top : 30%;
+    left : 80%;
+    transform : translate(-50%, -50%);
+    text-align : center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* PhoneNumber */
+.sell_text-box6 {     
+    width : 100%;
+    color : #fff;
+    position : absolute;
+    top : 60%;
+    left : 20%;
+    transform : translate(-50%, -50%);
+    text-align : center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Brief description of items. */
+.sell_text-box7 {     
+    width : 100%;
+    color : #fff;
+    position : absolute;
+    top : 60%;
+    left : 80%;
+    transform : translate(-50%, -50%);
+    text-align : center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Box */
+.sell_text-text {     
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 10px;
+}
+
+.sendmessage {     
+    color : #fff;
+    position : absolute;
+    top : 90%;
+    left : 20%;
+    transform : translate(-50%, -50%);
+    text-align : center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.sell_btn {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #3a3a3a;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 30px;
+    width: 83%;
+    border: 1px solid #3a3a3a;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;    
+}
+
+.sell_btn:hover {
+    background-color: blueviolet;
+    color: rgb(246, 248, 248);
+    font-weight: bold;
+
+}
+.cancel {     
+    color : #fff;
+    position : absolute;
+    top : 90%;
+    left : 80%;
+    transform : translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sell_cancelBtn {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #3a3a3a;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 30px;
+    border: 1px solid #3a3a3a;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+    font-display: center;
+}
+
+.sell_cancelBtn:hover {
+    background-color: blueviolet;
+    color: rgb(246, 248, 248);
+    font-weight: bold;
+}

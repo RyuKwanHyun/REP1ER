@@ -1,0 +1,89 @@
+.home_main {
+    background-image: url('./images/Reflica.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    
+    /*display: flex;*/
+    height: 100vh;
+    align-items: center;
+    /*justify-content: center;*/
+    font-size: 3rem;
+    position: relative;
+    width : 100%;
+    z-index: 0;
+  }
+
+  .home_title {
+    width : 100%;
+    color : #fff;
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    text-align : center;
+    display: inline-block;
+    font-size: 110px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .btn_container {
+    display : flex;
+    justify-content: center;
+    margin-top : 15%;
+    width : 100%;
+    position: absolute;
+    text-align : center;
+    font-weight: bold;
+    padding: auto;
+    cursor: pointer;
+    height: auto;
+    clear: both;
+
+  }
+  .btn01 {
+    display : block;
+    border-radius: 10px;
+    border: none;
+    background: #141414;
+    color: #fff;
+    cursor: pointer;
+    border : 1px solid black;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+ }
+
+  .btn01:hover {
+      color : black;
+      background-color: white;
+      font-weight: bold;
+      transition: 1s;
+      
+  }
+
+  /* .btn02 {
+    min-width: 100px;
+    padding: 16px 32px;
+    display : block;
+    border-radius: 10px;
+    border: none;
+    background: #141414;
+    color: #fff;
+    cursor: pointer;
+    flex-basis: 20%;
+    border : 1px solid black;
+    margin-left: 50%;
+    font-weight: bold;
+
+  }
+
+  .btn02:hover {
+    color : black;
+    background-color: white;
+    font-weight: bold;
+    transition: 1s;
+} */
